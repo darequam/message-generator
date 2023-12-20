@@ -28,6 +28,7 @@ const signs = [
     'Pebbles',
     'Rainbow',
     'Bee'
+    'white Dove'
 ]
 
 
