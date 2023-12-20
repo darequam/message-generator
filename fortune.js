@@ -49,11 +49,8 @@ const signs = [
 
 
 let fortuneMesaages = arr =>{
-    let i = Math.floor(Math.random()*9);
-    let j = Math.floor(Math.random()*5);
-
-
-
+    let i = Math.floor(Math.random()*9)
+    let j = Math.floor(Math.random()*6)
     switch (i){
         case 0:
             console.log(`The ${arr[i].Codec}.`);
