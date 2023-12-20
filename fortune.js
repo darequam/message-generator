@@ -27,14 +27,14 @@ const signs = [
     'Star',
     'Pebbles',
     'Rainbow',
-    'Bee'
+    'Bee',
     'white Dove'
 ]
 
 
 let fortuneMesaages = arr =>{
     let i = Math.floor(Math.random()*9);
-    let j = Math.floor(Math.random()*5)
+    let j = Math.floor(Math.random()*6)
     switch (i){
         case 0:
             console.log(`The ${codec[i]}.`);
